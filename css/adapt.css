@@ -1,3 +1,18 @@
-h1 {color: rgb(195, 111, 8);}
-p {color: azure;font-family: "Lucida Console", "Courier New", monospace;}
-body {background-color: rgb(223, 218, 152);color: aliceblue;}
+h1 {color: rgb(159, 92, 10);}
+h3 {color: black;}
+body {background-color: rgb(243, 239, 186);color: aliceblue;}
+.picture {
+      display: flex;
+      justify-content: center;
+    }
+.box {
+  background-color: lightgrey;
+  width: 550px;
+  border: 10px solid rgb(117, 117, 11);
+  padding: 30px;
+  margin: 20px auto;
+  color: black;
+  text-align: center; 
+}
+
+.center { display: flex; justify-content: center; align-items: center; }
