@@ -12,7 +12,34 @@ body {background-color: rgb(243, 239, 186);color: aliceblue;}
   padding: 30px;
   margin: 20px auto;
   color: black;
-  text-align: center; 
 }
 
 .center { display: flex; justify-content: center; align-items: center; }
+
+.contact {
+  margin-top: 20px;
+}
+
+.social-icon {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border: 5px solid rgb(109, 84, 16);
+    display: flex;
+    align-items: center;
+}
+
+.experiences-icon {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 5px solid rgb(109, 84, 16);
+    display: flex;
+    align-items: center;
+}
+
+.activity-row {
+  display: flex;
+  align-items: center;      
+  margin-bottom: 25px;      
+}
